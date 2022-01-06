@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="/styles/main.css" />
+
+		<title>Sujata Shrestha</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div id="logo">
+					<a href="/">
+						<img src="/images/logo.jpg" />
+					</a>
+				</div>
+
+				<div class="nav-items-wrapper">
+					<ul class="nav-items">
+						<li class="nav-item">
+							<a class="nav-link" href="#about" title="About">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills" title="Skills">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education" title="Education">
+								Education
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact" title="Contact"> Contact </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div id="main">
+			<section id="image">
+				<div class="image-container">
+					<img
+						class="image-profile"
+						src="images/sujata.JPG"
+						alt="profile picture"
+					/>
+				</div>
+			</section>
+
+			<section id="about">
+				<div class="about-wrapper">
+					<h1 class="section-title">About me</h1>
+					<span class="title-border"></span>
+					<span class="section-detail">
+			<p>My Name is Sujata Shrestha. Originally, I am from Nepal currently living in Oulu, Finland. My home town is Chitwan which is on the bank of Narayani river. I have been in Finland for four months now.</p>
+			<p>I graduated my high school from Sainik Awasiya Mahavidyalaya Bhaktapur, Nepal in the year 2019 A.D. Now, I am doing my Bachelor's Degree of Engineering in Information Technology at Oulu University of Applied Sciences. I am mainly focusing  in web development.</p>
+			<p>My hobbies include watching movies, listening to music, programming, crafting, travelling new places and learn new cultures. Aside from programming, I also intend to learn film-making. But, I haven't figured out how I am going to do it.</p>
+					</span>
+				</div>
+			</section>
+
+			<section id="skills">
+				<div class="skills-wrapper">
+					<h1 class="section-title">I am skilled in...</h1>
+					<span class="title-border"></span>
+					<span class="section-detail">
+						<p>
+							Studying in Oulu University of Applied Science has taught me
+							several programming languages. Some of the languages, I have
+							worked and has hands-on experience in are listed below:
+						</p>
+						<span class="skill html" title="HTML">HTML</span>
+						<span class="skill css" title="CSS">CSS</span>
+						<span class="skill javascript" title="JavaScript">JavaScript</span>
+
+						<span class="skills-other">
+							<h2 class="skills-other-text">
+								Apart from skills in programming. I am also skilled in...
+							</h2>
+							<table>
+								<tr>
+									<th>Skills</th>
+									<th>Description of skills</th>
+								</tr>
+								<tr>
+									<td>Microsoft Office</td>
+									<td>Typing and preparing documents</td>
+								</tr>
+							</table>
+						</span>
+					</span>
+				</div>
+			</section>
+
+			<section id="education">
+				<div class="education-wrapper">
+					<span>
+						<h1 class="section-title">Educational Background</h1>
+						<span class="title-border"></span>
+					</span>
+					<span class="section-detail">
+						<div class="education-container">
+							<div class="education education-1">
+								<i class="fas fa-user-graduate"></i>
+								<span class="education-detail">
+									<h2 class="level">
+										School Level Examination
+									</h2>
+									<span class="date">2017 - 2019</span>
+									<span class="college"
+										>Sainik Awasiya Mahavidyalaya Bhaktapur</span>
+									<span class="course">
+										Bio Science
+									</span>
+								</span>
+							</div>
+
+							<div class="education education-2">
+								<i class="fas fa-user-graduate"></i>
+								<span class="education-detail">
+									<h2 class="level">
+										Bachelor of Engineering, Information Technology
+									</h2>
+									<span class="date">Aug 2021 - Present</span>
+									<span class="college"
+										>Oulu University of Applied Sciences</span
+									>
+									<span class="course">
+										Web Development and Software Development
+									</span>
+								</span>
+							</div>
+						</div>
+					</span>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="contact-wrapper">
+					<h1 class="section-title">Contact</h1>
+					<span class="title-border"></span>
+					<span class="section-detail">
+						<table class="contact-table">
+							<tr>
+								<th>Phone</th>
+								<td>+358 451962300</td>
+							</tr>
+							<tr>
+								<th>Email</th>
+								<td>shresthasujata054@gmail.com</td>
+							</tr>
+						</table>
+						<form class="contact-form" action="/" method="POST">
+							<h3>Send a message</h3>
+							<span class="input-wrap input-email">
+								<label for="email">Email</label>
+								<input id="email" name="subject" />
+							</span>
+							<span class="input-wrap input-subject">
+								<label for="subject">Subject</label>
+								<input id="subject" name="subject" />
+							</span>
+							<span class="input-wrap input-message">
+								<label for="message">Message</label>
+								<input id="message" name="message" />
+							</span>
+							<span class="input-wrap">
+								<button
+									id="contact-send"
+									class="contact-btn"
+									type="submit"
+									name="send"
+									onclick="onSubmit()"
+								>
+									Send
+								</button>
+							</span>
+						</form>
+					</span>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div class="footer-wrapper">
+				<p class="footer-text">
+					Copyright &copy; <span id="footer-date"></span> Sujata Shrestha. All
+					rights reserved.
+				</p>
+
+				<span class="footer-social-media">
+					<a class="facebook" href="/" title="Go to Facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a class="instagram" href="/" title="Go to Instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a class="twitter" href="/" title="Go to twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</span>
+			</div>
+		</footer>
+
+		<script src="/scripts/main.js"></script>
+	</body>
+</html>
